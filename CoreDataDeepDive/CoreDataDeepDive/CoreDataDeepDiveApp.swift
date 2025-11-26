@@ -11,7 +11,10 @@ import SwiftUI
 struct CoreDataDeepDiveApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            FirstExampleView()
+                .environment(\.managedObjectContext, FirstExampleContainer().persistenceContainer.viewContext)
+            
         }
     }
 }

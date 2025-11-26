@@ -11,6 +11,9 @@
 		509D8C662ECBA59500EE3457 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D8C652ECBA59500EE3457 /* ContentView.swift */; };
 		509D8C682ECBA59600EE3457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 509D8C672ECBA59600EE3457 /* Assets.xcassets */; };
 		509D8C6B2ECBA59600EE3457 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 509D8C6A2ECBA59600EE3457 /* Preview Assets.xcassets */; };
+		50E3BB082ED77477007A6952 /* FirstExampleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */; };
+		50E3BB0C2ED774E9007A6952 /* FirstExampleContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0A2ED774E9007A6952 /* FirstExampleContainer.xcdatamodeld */; };
+		50E3BB0F2ED775B8007A6952 /* FirstExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		509D8C652ECBA59500EE3457 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		509D8C672ECBA59600EE3457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		509D8C6A2ECBA59600EE3457 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleContainer.swift; sourceTree = "<group>"; };
+		50E3BB0B2ED774E9007A6952 /* FirstExampleContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstExampleContainer.xcdatamodel; sourceTree = "<group>"; };
+		50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,9 @@
 		509D8C622ECBA59500EE3457 /* CoreDataDeepDive */ = {
 			isa = PBXGroup;
 			children = (
+				50E3BB0D2ED77599007A6952 /* Views */,
+				50E3BB092ED774D0007A6952 /* DataModels */,
+				50E3BB062ED77456007A6952 /* PersistenceContainer */,
 				509D8C632ECBA59500EE3457 /* CoreDataDeepDiveApp.swift */,
 				509D8C652ECBA59500EE3457 /* ContentView.swift */,
 				509D8C672ECBA59600EE3457 /* Assets.xcassets */,
@@ -65,6 +74,30 @@
 				509D8C6A2ECBA59600EE3457 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		50E3BB062ED77456007A6952 /* PersistenceContainer */ = {
+			isa = PBXGroup;
+			children = (
+				50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */,
+			);
+			path = PersistenceContainer;
+			sourceTree = "<group>";
+		};
+		50E3BB092ED774D0007A6952 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				50E3BB0A2ED774E9007A6952 /* FirstExampleContainer.xcdatamodeld */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		50E3BB0D2ED77599007A6952 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +171,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				509D8C662ECBA59500EE3457 /* ContentView.swift in Sources */,
+				50E3BB0C2ED774E9007A6952 /* FirstExampleContainer.xcdatamodeld in Sources */,
+				50E3BB082ED77477007A6952 /* FirstExampleContainer.swift in Sources */,
 				509D8C642ECBA59500EE3457 /* CoreDataDeepDiveApp.swift in Sources */,
+				50E3BB0F2ED775B8007A6952 /* FirstExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +380,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		50E3BB0A2ED774E9007A6952 /* FirstExampleContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50E3BB0B2ED774E9007A6952 /* FirstExampleContainer.xcdatamodel */,
+			);
+			currentVersion = 50E3BB0B2ED774E9007A6952 /* FirstExampleContainer.xcdatamodel */;
+			name = FirstExampleContainer.xcdatamodeld;
+			path = /Users/abdullahansari/Downloads/CoreDataDeepDive/CoreDataDeepDive/CoreDataDeepDive/DataModels/FirstExampleContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 509D8C582ECBA59500EE3457 /* Project object */;
 }
