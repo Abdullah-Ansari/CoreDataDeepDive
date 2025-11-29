@@ -47,6 +47,7 @@
 		504072F72EDB888E002AA9B9 /* FirstExample */ = {
 			isa = PBXGroup;
 			children = (
+				50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */,
 				50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */,
 				50E3BB0A2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld */,
 			);
@@ -56,6 +57,7 @@
 		504072F82EDB88C4002AA9B9 /* Friends */ = {
 			isa = PBXGroup;
 			children = (
+				504072F52EDB7F2A002AA9B9 /* PreviewingData_Intro.swift */,
 				504072F32EDB7CBA002AA9B9 /* FriendsContainer.swift */,
 				504072F02EDB7C30002AA9B9 /* FriendsDataModel.xcdatamodeld */,
 			);
@@ -81,8 +83,8 @@
 		509D8C622ECBA59500EE3457 /* CoreDataDeepDive */ = {
 			isa = PBXGroup;
 			children = (
-				50E3BB0D2ED77599007A6952 /* Views */,
-				50E3BB092ED774D0007A6952 /* DataModels */,
+				504072F72EDB888E002AA9B9 /* FirstExample */,
+				504072F82EDB88C4002AA9B9 /* Friends */,
 				509D8C632ECBA59500EE3457 /* CoreDataDeepDiveApp.swift */,
 				509D8C652ECBA59500EE3457 /* ContentView.swift */,
 				509D8C672ECBA59600EE3457 /* Assets.xcassets */,
@@ -97,24 +99,6 @@
 				509D8C6A2ECBA59600EE3457 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		50E3BB092ED774D0007A6952 /* DataModels */ = {
-			isa = PBXGroup;
-			children = (
-				504072F82EDB88C4002AA9B9 /* Friends */,
-				504072F72EDB888E002AA9B9 /* FirstExample */,
-			);
-			path = DataModels;
-			sourceTree = "<group>";
-		};
-		50E3BB0D2ED77599007A6952 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */,
-				504072F52EDB7F2A002AA9B9 /* PreviewingData_Intro.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
