@@ -17,22 +17,26 @@ final class FriendsContainer {
         
         print(persistentContainer.persistentStoreDescriptions.first!.url!.absoluteString)
         
-        if forPreview {
-            persistentContainer.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
-        }
-        
         persistentContainer.loadPersistentStores { _, _ in }
-        
-        // this condition, should be after loadPersistentStores
-        if forPreview {
+    }
+}
+
+extension FriendsContainer {
+    
+    static var preview: NSManagedObjectContext {
+        get {
+            let persistentContainer = NSPersistentContainer(name: "FriendsDataModel")
+            persistentContainer.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
+            persistentContainer.loadPersistentStores { _, _ in }
             addMockData(moc: persistentContainer.viewContext)
+            return persistentContainer.viewContext
         }
     }
 }
 
 extension FriendsContainer {
     
-    func addMockData(moc: NSManagedObjectContext) {
+    static func addMockData(moc: NSManagedObjectContext) {
         let friend1 = FriendEntity(context: moc)
         friend1.firstName = "Chris"
         friend1.lastName = "Bloom"

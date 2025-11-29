@@ -22,8 +22,6 @@ struct PreviewingData_Intro: View {
 
 #Preview {
     PreviewingData_Intro()
-        .environment(
-            \.managedObjectContext, 
-             FriendsContainer(forPreview: true).persistentContainer.viewContext
+        .environment(\.managedObjectContext, FriendsContainer.preview
         )
 }
