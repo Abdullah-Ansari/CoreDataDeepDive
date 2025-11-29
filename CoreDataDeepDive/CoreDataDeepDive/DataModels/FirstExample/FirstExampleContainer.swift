@@ -10,7 +10,7 @@ import CoreData
 
 final class FirstExampleContainer {
     
-    static let modelName = "FirstExampleContainer"
+    static let modelName = "FirstExampleDataModel"
     
     let persistenceContainer: NSPersistentContainer
     
