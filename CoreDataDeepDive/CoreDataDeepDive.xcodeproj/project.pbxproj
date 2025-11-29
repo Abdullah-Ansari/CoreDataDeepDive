@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		504072F22EDB7C30002AA9B9 /* FriendsDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 504072F02EDB7C30002AA9B9 /* FriendsDataModel.xcdatamodeld */; };
+		504072F42EDB7CBA002AA9B9 /* FriendsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504072F32EDB7CBA002AA9B9 /* FriendsContainer.swift */; };
+		504072F62EDB7F2A002AA9B9 /* PreviewingData_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504072F52EDB7F2A002AA9B9 /* PreviewingData_Intro.swift */; };
 		509D8C642ECBA59500EE3457 /* CoreDataDeepDiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D8C632ECBA59500EE3457 /* CoreDataDeepDiveApp.swift */; };
 		509D8C662ECBA59500EE3457 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D8C652ECBA59500EE3457 /* ContentView.swift */; };
 		509D8C682ECBA59600EE3457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 509D8C672ECBA59600EE3457 /* Assets.xcassets */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		504072F12EDB7C30002AA9B9 /* FriendsDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FriendsDataModel.xcdatamodel; sourceTree = "<group>"; };
+		504072F32EDB7CBA002AA9B9 /* FriendsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsContainer.swift; sourceTree = "<group>"; };
+		504072F52EDB7F2A002AA9B9 /* PreviewingData_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewingData_Intro.swift; sourceTree = "<group>"; };
 		509D8C602ECBA59500EE3457 /* CoreDataDeepDive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataDeepDive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		509D8C632ECBA59500EE3457 /* CoreDataDeepDiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDeepDiveApp.swift; sourceTree = "<group>"; };
 		509D8C652ECBA59500EE3457 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */,
+				504072F32EDB7CBA002AA9B9 /* FriendsContainer.swift */,
 			);
 			path = PersistenceContainer;
 			sourceTree = "<group>";
@@ -88,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				50E3BB0A2ED774E9007A6952 /* FirstExampleContainer.xcdatamodeld */,
+				504072F02EDB7C30002AA9B9 /* FriendsDataModel.xcdatamodeld */,
 			);
 			path = DataModels;
 			sourceTree = "<group>";
@@ -96,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */,
+				504072F52EDB7F2A002AA9B9 /* PreviewingData_Intro.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,6 +180,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				509D8C662ECBA59500EE3457 /* ContentView.swift in Sources */,
+				504072F22EDB7C30002AA9B9 /* FriendsDataModel.xcdatamodeld in Sources */,
+				504072F62EDB7F2A002AA9B9 /* PreviewingData_Intro.swift in Sources */,
+				504072F42EDB7CBA002AA9B9 /* FriendsContainer.swift in Sources */,
 				50E3BB0C2ED774E9007A6952 /* FirstExampleContainer.xcdatamodeld in Sources */,
 				50E3BB082ED77477007A6952 /* FirstExampleContainer.swift in Sources */,
 				509D8C642ECBA59500EE3457 /* CoreDataDeepDiveApp.swift in Sources */,
@@ -382,6 +394,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		504072F02EDB7C30002AA9B9 /* FriendsDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				504072F12EDB7C30002AA9B9 /* FriendsDataModel.xcdatamodel */,
+			);
+			currentVersion = 504072F12EDB7C30002AA9B9 /* FriendsDataModel.xcdatamodel */;
+			name = FriendsDataModel.xcdatamodeld;
+			path = /Users/abdullahansari/Downloads/CoreDataDeepDive/CoreDataDeepDive/CoreDataDeepDive/DataModels/FriendsDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		50E3BB0A2ED774E9007A6952 /* FirstExampleContainer.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
