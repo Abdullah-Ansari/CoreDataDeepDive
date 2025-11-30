@@ -103,15 +103,23 @@
 		508A59382EDC2F7300C0D3C7 /* Parks */ = {
 			isa = PBXGroup;
 			children = (
+				508A59482EDC46F300C0D3C7 /* Sorting */,
 				508A59392EDC2F9C00C0D3C7 /* ParksDataModel.xcdatamodeld */,
-				508A59442EDC3FA900C0D3C7 /* FetchRequest_SortDescending.swift */,
 				508A593C2EDC307200C0D3C7 /* ParksDataModelExtension.swift */,
 				508A593E2EDC317000C0D3C7 /* ParksContainer.swift */,
+			);
+			path = Parks;
+			sourceTree = "<group>";
+		};
+		508A59482EDC46F300C0D3C7 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
 				508A59402EDC325800C0D3C7 /* FetchRequest_RandomSorting.swift */,
+				508A59442EDC3FA900C0D3C7 /* FetchRequest_SortDescending.swift */,
 				508A59422EDC3EBA00C0D3C7 /* FetchRequest_SortingMultipleProperties.swift */,
 				508A59462EDC407200C0D3C7 /* FetchRequest_ToggleSorting.swift */,
 			);
-			path = Parks;
+			path = Sorting;
 			sourceTree = "<group>";
 		};
 		509D8C572ECBA59500EE3457 = {
