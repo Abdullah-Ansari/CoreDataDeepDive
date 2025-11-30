@@ -20,6 +20,7 @@
 		508A593F2EDC317000C0D3C7 /* ParksContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508A593E2EDC317000C0D3C7 /* ParksContainer.swift */; };
 		508A59412EDC325800C0D3C7 /* FetchRequest_RandomSorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508A59402EDC325800C0D3C7 /* FetchRequest_RandomSorting.swift */; };
 		508A59432EDC3EBA00C0D3C7 /* FetchRequest_SortingMultipleProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508A59422EDC3EBA00C0D3C7 /* FetchRequest_SortingMultipleProperties.swift */; };
+		508A59452EDC3FA900C0D3C7 /* FetchRequest_SortDescending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508A59442EDC3FA900C0D3C7 /* FetchRequest_SortDescending.swift */; };
 		509D8C642ECBA59500EE3457 /* CoreDataDeepDiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D8C632ECBA59500EE3457 /* CoreDataDeepDiveApp.swift */; };
 		509D8C662ECBA59500EE3457 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D8C652ECBA59500EE3457 /* ContentView.swift */; };
 		509D8C682ECBA59600EE3457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 509D8C672ECBA59600EE3457 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		508A593E2EDC317000C0D3C7 /* ParksContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksContainer.swift; sourceTree = "<group>"; };
 		508A59402EDC325800C0D3C7 /* FetchRequest_RandomSorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRequest_RandomSorting.swift; sourceTree = "<group>"; };
 		508A59422EDC3EBA00C0D3C7 /* FetchRequest_SortingMultipleProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRequest_SortingMultipleProperties.swift; sourceTree = "<group>"; };
+		508A59442EDC3FA900C0D3C7 /* FetchRequest_SortDescending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRequest_SortDescending.swift; sourceTree = "<group>"; };
 		509D8C602ECBA59500EE3457 /* CoreDataDeepDive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataDeepDive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		509D8C632ECBA59500EE3457 /* CoreDataDeepDiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDeepDiveApp.swift; sourceTree = "<group>"; };
 		509D8C652ECBA59500EE3457 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				508A59392EDC2F9C00C0D3C7 /* ParksDataModel.xcdatamodeld */,
+				508A59442EDC3FA900C0D3C7 /* FetchRequest_SortDescending.swift */,
 				508A593C2EDC307200C0D3C7 /* ParksDataModelExtension.swift */,
 				508A593E2EDC317000C0D3C7 /* ParksContainer.swift */,
 				508A59402EDC325800C0D3C7 /* FetchRequest_RandomSorting.swift */,
@@ -222,6 +225,7 @@
 				508A59372EDC25B800C0D3C7 /* DisplayData_HandlingNils.swift in Sources */,
 				508A593F2EDC317000C0D3C7 /* ParksContainer.swift in Sources */,
 				508A59352EDC23BF00C0D3C7 /* BookEntityExtension.swift in Sources */,
+				508A59452EDC3FA900C0D3C7 /* FetchRequest_SortDescending.swift in Sources */,
 				504072F22EDB7C30002AA9B9 /* FriendsDataModel.xcdatamodeld in Sources */,
 				504072F62EDB7F2A002AA9B9 /* PreviewingData_Intro.swift in Sources */,
 				504073002EDB8C78002AA9B9 /* DisplayData_Intro.swift in Sources */,
