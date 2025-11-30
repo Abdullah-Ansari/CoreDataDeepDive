@@ -7,4 +7,5 @@
         <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="region" optional="YES" attributeType="String"/>
     </entity>
+    <fetchRequest name="ParkFetchRequest" entity="ParkEntity" predicateString="rating &gt; 10 AND country == &quot;Canada&quot;"/>
 </model>
