@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5039E45E2EDED309002E032A /* FetchRequest_GoingBeyond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5039E45D2EDED309002E032A /* FetchRequest_GoingBeyond.swift */; };
+		5039E4602EDED58F002E032A /* FetchRequest_MOC_Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5039E45F2EDED58F002E032A /* FetchRequest_MOC_Count.swift */; };
 		504072F22EDB7C30002AA9B9 /* FriendsDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 504072F02EDB7C30002AA9B9 /* FriendsDataModel.xcdatamodeld */; };
 		504072F42EDB7CBA002AA9B9 /* FriendsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504072F32EDB7CBA002AA9B9 /* FriendsContainer.swift */; };
 		504072F62EDB7F2A002AA9B9 /* PreviewingData_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504072F52EDB7F2A002AA9B9 /* PreviewingData_Intro.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		5039E45D2EDED309002E032A /* FetchRequest_GoingBeyond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRequest_GoingBeyond.swift; sourceTree = "<group>"; };
+		5039E45F2EDED58F002E032A /* FetchRequest_MOC_Count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRequest_MOC_Count.swift; sourceTree = "<group>"; };
 		504072F12EDB7C30002AA9B9 /* FriendsDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FriendsDataModel.xcdatamodel; sourceTree = "<group>"; };
 		504072F32EDB7CBA002AA9B9 /* FriendsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsContainer.swift; sourceTree = "<group>"; };
 		504072F52EDB7F2A002AA9B9 /* PreviewingData_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewingData_Intro.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				5039E45D2EDED309002E032A /* FetchRequest_GoingBeyond.swift */,
+				5039E45F2EDED58F002E032A /* FetchRequest_MOC_Count.swift */,
 			);
 			path = NSFetchRequest;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				508A59412EDC325800C0D3C7 /* FetchRequest_RandomSorting.swift in Sources */,
 				50E3BB082ED77477007A6952 /* FirstExampleContainer.swift in Sources */,
 				509D8C642ECBA59500EE3457 /* CoreDataDeepDiveApp.swift in Sources */,
+				5039E4602EDED58F002E032A /* FetchRequest_MOC_Count.swift in Sources */,
 				50E3BB0F2ED775B8007A6952 /* FirstExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
