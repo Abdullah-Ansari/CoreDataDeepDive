@@ -1,11 +1,12 @@
 //
-//  ParksDataModelExtension.swift
+//  ParkEntityExtension.swift
 //  CoreDataDeepDive
 //
 //  Created by Abdullah Ansari on 30/11/25.
 //
 
 import UIKit
+import CoreData
 
 extension ParkEntity {
     
@@ -36,4 +37,17 @@ extension ParkEntity {
         return "\(rating).circle.fill"
     }
     
+}
+
+extension ParkEntity {
+    
+    static var firstFive: NSFetchRequest<ParkEntity> {
+        let request = ParkEntity.fetchRequest()
+        
+        request.sortDescriptors = [NSSortDescriptor(keyPath: \ParkEntity.name, ascending: true)]
+        
+        request.fetchLimit = 5
+        
+        return request
+    }
 }
