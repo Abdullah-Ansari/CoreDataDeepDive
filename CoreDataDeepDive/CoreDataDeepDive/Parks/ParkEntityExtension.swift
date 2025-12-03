@@ -25,6 +25,7 @@ extension ParkEntity {
         return region ?? "N/A"
     }
     
+    @objc
     var viewCountry: String {
         return country ?? "N/A"
     }
