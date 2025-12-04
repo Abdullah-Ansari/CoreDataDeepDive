@@ -14,7 +14,7 @@ extension TaskEntity {
     }
     
     var viewDueData: String {
-        dueData?.formatted(date: .numeric, time: .omitted) ?? ""
+        dueDate?.formatted(date: .numeric, time: .omitted) ?? ""
     }
     
     var viewPriority: String {

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		500A7C1D2EE2005900B3C86B /* TasksDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 500A7C1B2EE2005900B3C86B /* TasksDataModel.xcdatamodeld */; };
 		500A7C1F2EE200CC00B3C86B /* TaskEntityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A7C1E2EE200CC00B3C86B /* TaskEntityExtension.swift */; };
+		500A7C212EE2047000B3C86B /* MOC_Delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A7C202EE2047000B3C86B /* MOC_Delete.swift */; };
+		500A7C232EE205B100B3C86B /* TasksContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A7C222EE205B100B3C86B /* TasksContainer.swift */; };
 		5039E45E2EDED309002E032A /* FetchRequest_GoingBeyond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5039E45D2EDED309002E032A /* FetchRequest_GoingBeyond.swift */; };
 		5039E4602EDED58F002E032A /* FetchRequest_MOC_Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5039E45F2EDED58F002E032A /* FetchRequest_MOC_Count.swift */; };
 		5039E4622EDEFB45002E032A /*  FetchRequest_PredicateAndSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5039E4612EDEFB45002E032A /*  FetchRequest_PredicateAndSort.swift */; };
@@ -51,6 +53,8 @@
 /* Begin PBXFileReference section */
 		500A7C1C2EE2005900B3C86B /* TasksDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TasksDataModel.xcdatamodel; sourceTree = "<group>"; };
 		500A7C1E2EE200CC00B3C86B /* TaskEntityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEntityExtension.swift; sourceTree = "<group>"; };
+		500A7C202EE2047000B3C86B /* MOC_Delete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOC_Delete.swift; sourceTree = "<group>"; };
+		500A7C222EE205B100B3C86B /* TasksContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksContainer.swift; sourceTree = "<group>"; };
 		5039E45D2EDED309002E032A /* FetchRequest_GoingBeyond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRequest_GoingBeyond.swift; sourceTree = "<group>"; };
 		5039E45F2EDED58F002E032A /* FetchRequest_MOC_Count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRequest_MOC_Count.swift; sourceTree = "<group>"; };
 		5039E4612EDEFB45002E032A /*  FetchRequest_PredicateAndSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " FetchRequest_PredicateAndSort.swift"; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 			children = (
 				500A7C1B2EE2005900B3C86B /* TasksDataModel.xcdatamodeld */,
 				500A7C1E2EE200CC00B3C86B /* TaskEntityExtension.swift */,
+				500A7C202EE2047000B3C86B /* MOC_Delete.swift */,
+				500A7C222EE205B100B3C86B /* TasksContainer.swift */,
 			);
 			path = Tasks;
 			sourceTree = "<group>";
@@ -347,11 +353,13 @@
 				504072FC2EDB8A23002AA9B9 /* BooksDataModel.xcdatamodeld in Sources */,
 				508A594D2EDC4D6200C0D3C7 /* FetchRequest_MultipleFilters.swift in Sources */,
 				504072FE2EDB8AD6002AA9B9 /* BooksContainer.swift in Sources */,
+				500A7C232EE205B100B3C86B /* TasksContainer.swift in Sources */,
 				508A594B2EDC472B00C0D3C7 /* FetchRequest_Filtering.swift in Sources */,
 				504072F42EDB7CBA002AA9B9 /* FriendsContainer.swift in Sources */,
 				5039E4622EDEFB45002E032A /*  FetchRequest_PredicateAndSort.swift in Sources */,
 				508A59432EDC3EBA00C0D3C7 /* FetchRequest_SortingMultipleProperties.swift in Sources */,
 				500A7C1D2EE2005900B3C86B /* TasksDataModel.xcdatamodeld in Sources */,
+				500A7C212EE2047000B3C86B /* MOC_Delete.swift in Sources */,
 				50E3BB0C2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld in Sources */,
 				5039E45E2EDED309002E032A /* FetchRequest_GoingBeyond.swift in Sources */,
 				508A59412EDC325800C0D3C7 /* FetchRequest_RandomSorting.swift in Sources */,
