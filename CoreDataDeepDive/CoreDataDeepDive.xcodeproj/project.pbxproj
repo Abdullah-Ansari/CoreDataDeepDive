@@ -11,6 +11,7 @@
 		500A7C1F2EE200CC00B3C86B /* TaskEntityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A7C1E2EE200CC00B3C86B /* TaskEntityExtension.swift */; };
 		500A7C212EE2047000B3C86B /* MOC_Delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A7C202EE2047000B3C86B /* MOC_Delete.swift */; };
 		500A7C232EE205B100B3C86B /* TasksContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A7C222EE205B100B3C86B /* TasksContainer.swift */; };
+		500A7C252EE2086900B3C86B /* MOC_UpdateWithSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A7C242EE2086900B3C86B /* MOC_UpdateWithSwipe.swift */; };
 		5039E45E2EDED309002E032A /* FetchRequest_GoingBeyond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5039E45D2EDED309002E032A /* FetchRequest_GoingBeyond.swift */; };
 		5039E4602EDED58F002E032A /* FetchRequest_MOC_Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5039E45F2EDED58F002E032A /* FetchRequest_MOC_Count.swift */; };
 		5039E4622EDEFB45002E032A /*  FetchRequest_PredicateAndSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5039E4612EDEFB45002E032A /*  FetchRequest_PredicateAndSort.swift */; };
@@ -55,6 +56,7 @@
 		500A7C1E2EE200CC00B3C86B /* TaskEntityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEntityExtension.swift; sourceTree = "<group>"; };
 		500A7C202EE2047000B3C86B /* MOC_Delete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOC_Delete.swift; sourceTree = "<group>"; };
 		500A7C222EE205B100B3C86B /* TasksContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksContainer.swift; sourceTree = "<group>"; };
+		500A7C242EE2086900B3C86B /* MOC_UpdateWithSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOC_UpdateWithSwipe.swift; sourceTree = "<group>"; };
 		5039E45D2EDED309002E032A /* FetchRequest_GoingBeyond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRequest_GoingBeyond.swift; sourceTree = "<group>"; };
 		5039E45F2EDED58F002E032A /* FetchRequest_MOC_Count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRequest_MOC_Count.swift; sourceTree = "<group>"; };
 		5039E4612EDEFB45002E032A /*  FetchRequest_PredicateAndSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " FetchRequest_PredicateAndSort.swift"; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				500A7C1E2EE200CC00B3C86B /* TaskEntityExtension.swift */,
 				500A7C202EE2047000B3C86B /* MOC_Delete.swift */,
 				500A7C222EE205B100B3C86B /* TasksContainer.swift */,
+				500A7C242EE2086900B3C86B /* MOC_UpdateWithSwipe.swift */,
 			);
 			path = Tasks;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5039E4652EDF012B002E032A /* SFR_Intro.swift in Sources */,
+				500A7C252EE2086900B3C86B /* MOC_UpdateWithSwipe.swift in Sources */,
 				509D8C662ECBA59500EE3457 /* ContentView.swift in Sources */,
 				508A59552EDC79DD00C0D3C7 /* FetchRequest_Animation_NonList.swift in Sources */,
 				508A59532EDC792C00C0D3C7 /* FetchRequest_Animation.swift in Sources */,
