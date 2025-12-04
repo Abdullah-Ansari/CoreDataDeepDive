@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		500A7C1D2EE2005900B3C86B /* TasksDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 500A7C1B2EE2005900B3C86B /* TasksDataModel.xcdatamodeld */; };
+		500A7C1F2EE200CC00B3C86B /* TaskEntityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A7C1E2EE200CC00B3C86B /* TaskEntityExtension.swift */; };
 		5039E45E2EDED309002E032A /* FetchRequest_GoingBeyond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5039E45D2EDED309002E032A /* FetchRequest_GoingBeyond.swift */; };
 		5039E4602EDED58F002E032A /* FetchRequest_MOC_Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5039E45F2EDED58F002E032A /* FetchRequest_MOC_Count.swift */; };
 		5039E4622EDEFB45002E032A /*  FetchRequest_PredicateAndSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5039E4612EDEFB45002E032A /*  FetchRequest_PredicateAndSort.swift */; };
@@ -47,6 +49,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		500A7C1C2EE2005900B3C86B /* TasksDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TasksDataModel.xcdatamodel; sourceTree = "<group>"; };
+		500A7C1E2EE200CC00B3C86B /* TaskEntityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEntityExtension.swift; sourceTree = "<group>"; };
 		5039E45D2EDED309002E032A /* FetchRequest_GoingBeyond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRequest_GoingBeyond.swift; sourceTree = "<group>"; };
 		5039E45F2EDED58F002E032A /* FetchRequest_MOC_Count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRequest_MOC_Count.swift; sourceTree = "<group>"; };
 		5039E4612EDEFB45002E032A /*  FetchRequest_PredicateAndSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " FetchRequest_PredicateAndSort.swift"; sourceTree = "<group>"; };
@@ -98,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		500A7C1A2EE2003800B3C86B /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				500A7C1B2EE2005900B3C86B /* TasksDataModel.xcdatamodeld */,
+				500A7C1E2EE200CC00B3C86B /* TaskEntityExtension.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
 		5039E4632EDF0102002E032A /* SectionedFetchRequest */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +231,7 @@
 		509D8C622ECBA59500EE3457 /* CoreDataDeepDive */ = {
 			isa = PBXGroup;
 			children = (
+				500A7C1A2EE2003800B3C86B /* Tasks */,
 				508A59382EDC2F7300C0D3C7 /* Parks */,
 				504072F92EDB89EB002AA9B9 /* DisplayingData */,
 				504072F72EDB888E002AA9B9 /* FirstExample */,
@@ -319,6 +333,7 @@
 				508A59372EDC25B800C0D3C7 /* DisplayData_HandlingNils.swift in Sources */,
 				508A593F2EDC317000C0D3C7 /* ParksContainer.swift in Sources */,
 				508A59592EDC7BC200C0D3C7 /* FetchRequest_Animation_Other_2.swift in Sources */,
+				500A7C1F2EE200CC00B3C86B /* TaskEntityExtension.swift in Sources */,
 				508A59352EDC23BF00C0D3C7 /* BookEntityExtension.swift in Sources */,
 				508A59452EDC3FA900C0D3C7 /* FetchRequest_SortDescending.swift in Sources */,
 				508A59472EDC407200C0D3C7 /* FetchRequest_ToggleSorting.swift in Sources */,
@@ -336,6 +351,7 @@
 				504072F42EDB7CBA002AA9B9 /* FriendsContainer.swift in Sources */,
 				5039E4622EDEFB45002E032A /*  FetchRequest_PredicateAndSort.swift in Sources */,
 				508A59432EDC3EBA00C0D3C7 /* FetchRequest_SortingMultipleProperties.swift in Sources */,
+				500A7C1D2EE2005900B3C86B /* TasksDataModel.xcdatamodeld in Sources */,
 				50E3BB0C2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld in Sources */,
 				5039E45E2EDED309002E032A /* FetchRequest_GoingBeyond.swift in Sources */,
 				508A59412EDC325800C0D3C7 /* FetchRequest_RandomSorting.swift in Sources */,
@@ -550,6 +566,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		500A7C1B2EE2005900B3C86B /* TasksDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				500A7C1C2EE2005900B3C86B /* TasksDataModel.xcdatamodel */,
+			);
+			currentVersion = 500A7C1C2EE2005900B3C86B /* TasksDataModel.xcdatamodel */;
+			name = TasksDataModel.xcdatamodeld;
+			path = /Users/abdullahansari/Downloads/CoreDataDeepDive/CoreDataDeepDive/CoreDataDeepDive/Tasks/TasksDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		504072F02EDB7C30002AA9B9 /* FriendsDataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
