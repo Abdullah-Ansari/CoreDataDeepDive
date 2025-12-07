@@ -17,6 +17,7 @@
 		5039E4602EDED58F002E032A /* FetchRequest_MOC_Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5039E45F2EDED58F002E032A /* FetchRequest_MOC_Count.swift */; };
 		5039E4622EDEFB45002E032A /*  FetchRequest_PredicateAndSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5039E4612EDEFB45002E032A /*  FetchRequest_PredicateAndSort.swift */; };
 		5039E4652EDF012B002E032A /* SFR_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5039E4642EDF012B002E032A /* SFR_Intro.swift */; };
+		503D8BA32EE6116400FB7A95 /* MOC_Insert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503D8BA22EE6116400FB7A95 /* MOC_Insert.swift */; };
 		503F76402EE0B27A00E74974 /* SFR_UseExtendedProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503F763F2EE0B27A00E74974 /* SFR_UseExtendedProperties.swift */; };
 		503F76422EE0B32D00E74974 /* SFR_ChangeSectionId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503F76412EE0B32D00E74974 /* SFR_ChangeSectionId.swift */; };
 		503F76442EE0B4A500E74974 /* SFR_SectionId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503F76432EE0B4A500E74974 /* SFR_SectionId.swift */; };
@@ -63,6 +64,7 @@
 		5039E45F2EDED58F002E032A /* FetchRequest_MOC_Count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRequest_MOC_Count.swift; sourceTree = "<group>"; };
 		5039E4612EDEFB45002E032A /*  FetchRequest_PredicateAndSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " FetchRequest_PredicateAndSort.swift"; sourceTree = "<group>"; };
 		5039E4642EDF012B002E032A /* SFR_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFR_Intro.swift; sourceTree = "<group>"; };
+		503D8BA22EE6116400FB7A95 /* MOC_Insert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOC_Insert.swift; sourceTree = "<group>"; };
 		503F763F2EE0B27A00E74974 /* SFR_UseExtendedProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFR_UseExtendedProperties.swift; sourceTree = "<group>"; };
 		503F76412EE0B32D00E74974 /* SFR_ChangeSectionId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFR_ChangeSectionId.swift; sourceTree = "<group>"; };
 		503F76432EE0B4A500E74974 /* SFR_SectionId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFR_SectionId.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				500A7C222EE205B100B3C86B /* TasksContainer.swift */,
 				500A7C242EE2086900B3C86B /* MOC_UpdateWithSwipe.swift */,
 				500A7C262EE20B1400B3C86B /* MOC_UpdateTask.swift */,
+				503D8BA22EE6116400FB7A95 /* MOC_Insert.swift */,
 			);
 			path = Tasks;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 				508A59352EDC23BF00C0D3C7 /* BookEntityExtension.swift in Sources */,
 				508A59452EDC3FA900C0D3C7 /* FetchRequest_SortDescending.swift in Sources */,
 				508A59472EDC407200C0D3C7 /* FetchRequest_ToggleSorting.swift in Sources */,
+				503D8BA32EE6116400FB7A95 /* MOC_Insert.swift in Sources */,
 				504072F22EDB7C30002AA9B9 /* FriendsDataModel.xcdatamodeld in Sources */,
 				504072F62EDB7F2A002AA9B9 /* PreviewingData_Intro.swift in Sources */,
 				504073002EDB8C78002AA9B9 /* DisplayData_Intro.swift in Sources */,
