@@ -71,6 +71,10 @@
 		50A97DCA2EFC176B006F37EB /* MOC_Undo_LevelsOfUndo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DC92EFC176B006F37EB /* MOC_Undo_LevelsOfUndo.swift */; };
 		50A97DCC2EFC1822006F37EB /* MOC_Rollback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DCB2EFC1822006F37EB /* MOC_Rollback.swift */; };
 		50A97DCE2EFC18F4006F37EB /* MOC_Redo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DCD2EFC18F3006F37EB /* MOC_Redo.swift */; };
+		50A97DD52EFC2D40006F37EB /* AutosDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DD32EFC2D40006F37EB /* AutosDataModel.xcdatamodeld */; };
+		50A97DD72EFC2E38006F37EB /* Relationships_ParentChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DD62EFC2E38006F37EB /* Relationships_ParentChild.swift */; };
+		50A97DD92EFC2E5E006F37EB /* AutosContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DD82EFC2E5E006F37EB /* AutosContainer.swift */; };
+		50A97DDB2EFC3049006F37EB /* ManufacturerEntityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DDA2EFC3049006F37EB /* ManufacturerEntityExtension.swift */; };
 		50E3BB082ED77477007A6952 /* FirstExampleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */; };
 		50E3BB0C2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0A2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld */; };
 		50E3BB0F2ED775B8007A6952 /* FirstExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */; };
@@ -142,6 +146,10 @@
 		50A97DC92EFC176B006F37EB /* MOC_Undo_LevelsOfUndo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOC_Undo_LevelsOfUndo.swift; sourceTree = "<group>"; };
 		50A97DCB2EFC1822006F37EB /* MOC_Rollback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOC_Rollback.swift; sourceTree = "<group>"; };
 		50A97DCD2EFC18F3006F37EB /* MOC_Redo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOC_Redo.swift; sourceTree = "<group>"; };
+		50A97DD42EFC2D40006F37EB /* AutosDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AutosDataModel.xcdatamodel; sourceTree = "<group>"; };
+		50A97DD62EFC2E38006F37EB /* Relationships_ParentChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relationships_ParentChild.swift; sourceTree = "<group>"; };
+		50A97DD82EFC2E5E006F37EB /* AutosContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutosContainer.swift; sourceTree = "<group>"; };
+		50A97DDA2EFC3049006F37EB /* ManufacturerEntityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManufacturerEntityExtension.swift; sourceTree = "<group>"; };
 		50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleContainer.swift; sourceTree = "<group>"; };
 		50E3BB0B2ED774E9007A6952 /* FirstExampleContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstExampleContainer.xcdatamodel; sourceTree = "<group>"; };
 		50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleView.swift; sourceTree = "<group>"; };
@@ -292,6 +300,7 @@
 		509D8C622ECBA59500EE3457 /* CoreDataDeepDive */ = {
 			isa = PBXGroup;
 			children = (
+				50A97DCF2EFC2D07006F37EB /* Autos */,
 				50A97DC22EFC10DF006F37EB /* UndoAndRedo */,
 				50A97DB92EFBF31F006F37EB /* Helper */,
 				50A97DA82EFBEE3A006F37EB /* Animals */,
@@ -366,6 +375,17 @@
 				50A97DCD2EFC18F3006F37EB /* MOC_Redo.swift */,
 			);
 			path = UndoAndRedo;
+			sourceTree = "<group>";
+		};
+		50A97DCF2EFC2D07006F37EB /* Autos */ = {
+			isa = PBXGroup;
+			children = (
+				50A97DD32EFC2D40006F37EB /* AutosDataModel.xcdatamodeld */,
+				50A97DD62EFC2E38006F37EB /* Relationships_ParentChild.swift */,
+				50A97DD82EFC2E5E006F37EB /* AutosContainer.swift */,
+				50A97DDA2EFC3049006F37EB /* ManufacturerEntityExtension.swift */,
+			);
+			path = Autos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -464,6 +484,8 @@
 				50A97DCE2EFC18F4006F37EB /* MOC_Redo.swift in Sources */,
 				508A59592EDC7BC200C0D3C7 /* FetchRequest_Animation_Other_2.swift in Sources */,
 				500A7C1F2EE200CC00B3C86B /* TaskEntityExtension.swift in Sources */,
+				50A97DDB2EFC3049006F37EB /* ManufacturerEntityExtension.swift in Sources */,
+				50A97DD92EFC2E5E006F37EB /* AutosContainer.swift in Sources */,
 				50A97DC42EFC10F1006F37EB /* MOC_Undo.swift in Sources */,
 				508A59352EDC23BF00C0D3C7 /* BookEntityExtension.swift in Sources */,
 				508A59452EDC3FA900C0D3C7 /* FetchRequest_SortDescending.swift in Sources */,
@@ -482,6 +504,8 @@
 				508A593D2EDC307200C0D3C7 /* ParkEntityExtension.swift in Sources */,
 				504072FC2EDB8A23002AA9B9 /* BooksDataModel.xcdatamodeld in Sources */,
 				50A97DBB2EFBF333006F37EB /* StringExtension.swift in Sources */,
+				50A97DD52EFC2D40006F37EB /* AutosDataModel.xcdatamodeld in Sources */,
+				50A97DD72EFC2E38006F37EB /* Relationships_ParentChild.swift in Sources */,
 				508A594D2EDC4D6200C0D3C7 /* FetchRequest_MultipleFilters.swift in Sources */,
 				504072FE2EDB8AD6002AA9B9 /* BooksContainer.swift in Sources */,
 				500A7C232EE205B100B3C86B /* TasksContainer.swift in Sources */,
@@ -772,6 +796,17 @@
 			currentVersion = 50A97DAF2EFBEF4E006F37EB /* AnimalsDataModel.xcdatamodel */;
 			name = AnimalsDataModel.xcdatamodeld;
 			path = /Users/abdullahansari/Downloads/CoreDataDeepDive/CoreDataDeepDive/CoreDataDeepDive/Animals/AnimalsDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		50A97DD32EFC2D40006F37EB /* AutosDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50A97DD42EFC2D40006F37EB /* AutosDataModel.xcdatamodel */,
+			);
+			currentVersion = 50A97DD42EFC2D40006F37EB /* AutosDataModel.xcdatamodel */;
+			name = AutosDataModel.xcdatamodeld;
+			path = /Users/abdullahansari/Downloads/CoreDataDeepDive/CoreDataDeepDive/CoreDataDeepDive/Autos/AutosDataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
