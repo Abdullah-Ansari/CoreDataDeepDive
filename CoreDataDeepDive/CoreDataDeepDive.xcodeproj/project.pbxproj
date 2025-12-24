@@ -77,6 +77,11 @@
 		50A97DDB2EFC3049006F37EB /* ManufacturerEntityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DDA2EFC3049006F37EB /* ManufacturerEntityExtension.swift */; };
 		50A97DDD2EFC3599006F37EB /* Relationships_Nested.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DDC2EFC3599006F37EB /* Relationships_Nested.swift */; };
 		50A97DDF2EFC368D006F37EB /* Relationships_SectionedFetchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DDE2EFC368D006F37EB /* Relationships_SectionedFetchRequest.swift */; };
+		50A97DE52EFC3938006F37EB /* SchoolDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DE32EFC3938006F37EB /* SchoolDataModel.xcdatamodeld */; };
+		50A97DE72EFC39D7006F37EB /* SchoolContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DE62EFC39D7006F37EB /* SchoolContainer.swift */; };
+		50A97DE92EFC50E6006F37EB /* Relationships_ManyToMany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DE82EFC50E6006F37EB /* Relationships_ManyToMany.swift */; };
+		50A97DEB2EFC5C2C006F37EB /* ClassEntityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DEA2EFC5C2C006F37EB /* ClassEntityExtension.swift */; };
+		50A97DED2EFC5E04006F37EB /* StudentEntityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DEC2EFC5E04006F37EB /* StudentEntityExtension.swift */; };
 		50E3BB082ED77477007A6952 /* FirstExampleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */; };
 		50E3BB0C2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0A2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld */; };
 		50E3BB0F2ED775B8007A6952 /* FirstExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */; };
@@ -154,6 +159,11 @@
 		50A97DDA2EFC3049006F37EB /* ManufacturerEntityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManufacturerEntityExtension.swift; sourceTree = "<group>"; };
 		50A97DDC2EFC3599006F37EB /* Relationships_Nested.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relationships_Nested.swift; sourceTree = "<group>"; };
 		50A97DDE2EFC368D006F37EB /* Relationships_SectionedFetchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relationships_SectionedFetchRequest.swift; sourceTree = "<group>"; };
+		50A97DE42EFC3938006F37EB /* SchoolDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SchoolDataModel.xcdatamodel; sourceTree = "<group>"; };
+		50A97DE62EFC39D7006F37EB /* SchoolContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolContainer.swift; sourceTree = "<group>"; };
+		50A97DE82EFC50E6006F37EB /* Relationships_ManyToMany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relationships_ManyToMany.swift; sourceTree = "<group>"; };
+		50A97DEA2EFC5C2C006F37EB /* ClassEntityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassEntityExtension.swift; sourceTree = "<group>"; };
+		50A97DEC2EFC5E04006F37EB /* StudentEntityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentEntityExtension.swift; sourceTree = "<group>"; };
 		50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleContainer.swift; sourceTree = "<group>"; };
 		50E3BB0B2ED774E9007A6952 /* FirstExampleContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstExampleContainer.xcdatamodel; sourceTree = "<group>"; };
 		50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleView.swift; sourceTree = "<group>"; };
@@ -304,6 +314,7 @@
 		509D8C622ECBA59500EE3457 /* CoreDataDeepDive */ = {
 			isa = PBXGroup;
 			children = (
+				50A97DE02EFC38C8006F37EB /* Schools */,
 				50A97DCF2EFC2D07006F37EB /* Autos */,
 				50A97DC22EFC10DF006F37EB /* UndoAndRedo */,
 				50A97DB92EFBF31F006F37EB /* Helper */,
@@ -394,6 +405,18 @@
 			path = Autos;
 			sourceTree = "<group>";
 		};
+		50A97DE02EFC38C8006F37EB /* Schools */ = {
+			isa = PBXGroup;
+			children = (
+				50A97DE32EFC3938006F37EB /* SchoolDataModel.xcdatamodeld */,
+				50A97DE62EFC39D7006F37EB /* SchoolContainer.swift */,
+				50A97DE82EFC50E6006F37EB /* Relationships_ManyToMany.swift */,
+				50A97DEA2EFC5C2C006F37EB /* ClassEntityExtension.swift */,
+				50A97DEC2EFC5E04006F37EB /* StudentEntityExtension.swift */,
+			);
+			path = Schools;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -471,6 +494,7 @@
 				508A59552EDC79DD00C0D3C7 /* FetchRequest_Animation_NonList.swift in Sources */,
 				50A97DB42EFBEFB6006F37EB /* AnimalsContainer.swift in Sources */,
 				50A97DC82EFC16EF006F37EB /* MOC_Undo_Scope.swift in Sources */,
+				50A97DE52EFC3938006F37EB /* SchoolDataModel.xcdatamodeld in Sources */,
 				508A59532EDC792C00C0D3C7 /* FetchRequest_Animation.swift in Sources */,
 				50A97DC12EFBFD01006F37EB /* DataModels_DefaultValues_AwakeFromInsert.swift in Sources */,
 				50A97DB82EFBF2C2006F37EB /* DataModels_NotOptional.swift in Sources */,
@@ -493,6 +517,7 @@
 				50A97DDB2EFC3049006F37EB /* ManufacturerEntityExtension.swift in Sources */,
 				50A97DD92EFC2E5E006F37EB /* AutosContainer.swift in Sources */,
 				50A97DC42EFC10F1006F37EB /* MOC_Undo.swift in Sources */,
+				50A97DED2EFC5E04006F37EB /* StudentEntityExtension.swift in Sources */,
 				508A59352EDC23BF00C0D3C7 /* BookEntityExtension.swift in Sources */,
 				508A59452EDC3FA900C0D3C7 /* FetchRequest_SortDescending.swift in Sources */,
 				508A59472EDC407200C0D3C7 /* FetchRequest_ToggleSorting.swift in Sources */,
@@ -520,7 +545,9 @@
 				504072F42EDB7CBA002AA9B9 /* FriendsContainer.swift in Sources */,
 				50A97D9D2EFBC862006F37EB /* MOC_UpdateHasChanges.swift in Sources */,
 				50A97DB02EFBEF4E006F37EB /* AnimalsDataModel.xcdatamodeld in Sources */,
+				50A97DEB2EFC5C2C006F37EB /* ClassEntityExtension.swift in Sources */,
 				5039E4622EDEFB45002E032A /*  FetchRequest_PredicateAndSort.swift in Sources */,
+				50A97DE72EFC39D7006F37EB /* SchoolContainer.swift in Sources */,
 				508A59432EDC3EBA00C0D3C7 /* FetchRequest_SortingMultipleProperties.swift in Sources */,
 				500A7C1D2EE2005900B3C86B /* TasksDataModel.xcdatamodeld in Sources */,
 				500A7C212EE2047000B3C86B /* MOC_Delete.swift in Sources */,
@@ -534,6 +561,7 @@
 				50A97DB62EFBF0D2006F37EB /* DataModels_Optional.swift in Sources */,
 				5039E4602EDED58F002E032A /* FetchRequest_MOC_Count.swift in Sources */,
 				50E3BB0F2ED775B8007A6952 /* FirstExampleView.swift in Sources */,
+				50A97DE92EFC50E6006F37EB /* Relationships_ManyToMany.swift in Sources */,
 				50A97DBF2EFBFA61006F37EB /* DataModels_DefaultValues.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -815,6 +843,17 @@
 			currentVersion = 50A97DD42EFC2D40006F37EB /* AutosDataModel.xcdatamodel */;
 			name = AutosDataModel.xcdatamodeld;
 			path = /Users/abdullahansari/Downloads/CoreDataDeepDive/CoreDataDeepDive/CoreDataDeepDive/Autos/AutosDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		50A97DE32EFC3938006F37EB /* SchoolDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50A97DE42EFC3938006F37EB /* SchoolDataModel.xcdatamodel */,
+			);
+			currentVersion = 50A97DE42EFC3938006F37EB /* SchoolDataModel.xcdatamodel */;
+			name = SchoolDataModel.xcdatamodeld;
+			path = /Users/abdullahansari/Downloads/CoreDataDeepDive/CoreDataDeepDive/CoreDataDeepDive/Schools/SchoolDataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
