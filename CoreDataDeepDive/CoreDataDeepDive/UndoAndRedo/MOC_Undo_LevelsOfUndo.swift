@@ -8,8 +8,53 @@
 import SwiftUI
 
 struct MOC_Undo_LevelsOfUndo: View {
+    @Environment(\.managedObjectContext) var moc
+    @FetchRequest<TaskEntity>(sortDescriptors: [SortDescriptor(\.done)]) private var tasks
+    @State private var allSaved = true
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List {
+                ForEach(tasks) { task in
+                    Text(task.viewTaskName)
+                        .strikethrough(task.done, color: .red)
+                }
+                .onDelete(perform: deleteTask)
+            }
+            .navigationTitle("Levels of Undo")
+            .toolbar {
+                ToolbarItemGroup {
+                    Button {
+                        moc.undo()
+                        allSaved = (moc.hasChanges == false)
+                    } label: {
+                        Image(systemName: "arrow.uturn.left")
+                    }
+                    .disabled(allSaved)
+                    
+                    Button {
+                        try? moc.save()
+                        allSaved = (moc.hasChanges == false)
+                    } label: {
+                        Image(systemName: "checkmark")
+                    }
+                    .disabled(allSaved)
+                }
+            }
+            .onAppear() {
+                moc.undoManager = UndoManager()
+                moc.undoManager?.levelsOfUndo = 2
+            }
+            .onDisappear() {
+                moc.undoManager = nil
+            }
+        }
+    }
+    
+    private func deleteTask(offsets: IndexSet) {
+        for offset in offsets {
+            moc.delete(tasks[offset])
+        }
+        allSaved = false
     }
 }
 
