@@ -69,6 +69,7 @@
 		50A97DC62EFC14CF006F37EB /* MOC_Undo_HasChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DC52EFC14CF006F37EB /* MOC_Undo_HasChanges.swift */; };
 		50A97DC82EFC16EF006F37EB /* MOC_Undo_Scope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DC72EFC16EF006F37EB /* MOC_Undo_Scope.swift */; };
 		50A97DCA2EFC176B006F37EB /* MOC_Undo_LevelsOfUndo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DC92EFC176B006F37EB /* MOC_Undo_LevelsOfUndo.swift */; };
+		50A97DCC2EFC1822006F37EB /* MOC_Rollback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DCB2EFC1822006F37EB /* MOC_Rollback.swift */; };
 		50E3BB082ED77477007A6952 /* FirstExampleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */; };
 		50E3BB0C2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0A2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld */; };
 		50E3BB0F2ED775B8007A6952 /* FirstExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */; };
@@ -138,6 +139,7 @@
 		50A97DC52EFC14CF006F37EB /* MOC_Undo_HasChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOC_Undo_HasChanges.swift; sourceTree = "<group>"; };
 		50A97DC72EFC16EF006F37EB /* MOC_Undo_Scope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOC_Undo_Scope.swift; sourceTree = "<group>"; };
 		50A97DC92EFC176B006F37EB /* MOC_Undo_LevelsOfUndo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOC_Undo_LevelsOfUndo.swift; sourceTree = "<group>"; };
+		50A97DCB2EFC1822006F37EB /* MOC_Rollback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOC_Rollback.swift; sourceTree = "<group>"; };
 		50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleContainer.swift; sourceTree = "<group>"; };
 		50E3BB0B2ED774E9007A6952 /* FirstExampleContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstExampleContainer.xcdatamodel; sourceTree = "<group>"; };
 		50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleView.swift; sourceTree = "<group>"; };
@@ -358,6 +360,7 @@
 				50A97DC52EFC14CF006F37EB /* MOC_Undo_HasChanges.swift */,
 				50A97DC72EFC16EF006F37EB /* MOC_Undo_Scope.swift */,
 				50A97DC92EFC176B006F37EB /* MOC_Undo_LevelsOfUndo.swift */,
+				50A97DCB2EFC1822006F37EB /* MOC_Rollback.swift */,
 			);
 			path = UndoAndRedo;
 			sourceTree = "<group>";
@@ -453,6 +456,7 @@
 				50A97D9F2EFBCEC3006F37EB /* CountryContainer.swift in Sources */,
 				508A59372EDC25B800C0D3C7 /* DisplayData_HandlingNils.swift in Sources */,
 				508A593F2EDC317000C0D3C7 /* ParksContainer.swift in Sources */,
+				50A97DCC2EFC1822006F37EB /* MOC_Rollback.swift in Sources */,
 				50A97D992EFBC6DE006F37EB /* CountriesDataModel.xcdatamodeld in Sources */,
 				508A59592EDC7BC200C0D3C7 /* FetchRequest_Animation_Other_2.swift in Sources */,
 				500A7C1F2EE200CC00B3C86B /* TaskEntityExtension.swift in Sources */,
