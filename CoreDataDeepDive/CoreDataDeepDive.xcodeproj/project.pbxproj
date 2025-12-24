@@ -60,6 +60,8 @@
 		50A97DB22EFBEF6F006F37EB /* AnimalEntityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DB12EFBEF6F006F37EB /* AnimalEntityExtension.swift */; };
 		50A97DB42EFBEFB6006F37EB /* AnimalsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DB32EFBEFB6006F37EB /* AnimalsContainer.swift */; };
 		50A97DB62EFBF0D2006F37EB /* DataModels_Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DB52EFBF0D2006F37EB /* DataModels_Optional.swift */; };
+		50A97DB82EFBF2C2006F37EB /* DataModels_NotOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DB72EFBF2C2006F37EB /* DataModels_NotOptional.swift */; };
+		50A97DBB2EFBF333006F37EB /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DBA2EFBF333006F37EB /* StringExtension.swift */; };
 		50E3BB082ED77477007A6952 /* FirstExampleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */; };
 		50E3BB0C2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0A2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld */; };
 		50E3BB0F2ED775B8007A6952 /* FirstExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */; };
@@ -120,6 +122,8 @@
 		50A97DB12EFBEF6F006F37EB /* AnimalEntityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalEntityExtension.swift; sourceTree = "<group>"; };
 		50A97DB32EFBEFB6006F37EB /* AnimalsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsContainer.swift; sourceTree = "<group>"; };
 		50A97DB52EFBF0D2006F37EB /* DataModels_Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels_Optional.swift; sourceTree = "<group>"; };
+		50A97DB72EFBF2C2006F37EB /* DataModels_NotOptional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels_NotOptional.swift; sourceTree = "<group>"; };
+		50A97DBA2EFBF333006F37EB /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleContainer.swift; sourceTree = "<group>"; };
 		50E3BB0B2ED774E9007A6952 /* FirstExampleContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstExampleContainer.xcdatamodel; sourceTree = "<group>"; };
 		50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleView.swift; sourceTree = "<group>"; };
@@ -270,6 +274,7 @@
 		509D8C622ECBA59500EE3457 /* CoreDataDeepDive */ = {
 			isa = PBXGroup;
 			children = (
+				50A97DB92EFBF31F006F37EB /* Helper */,
 				50A97DA82EFBEE3A006F37EB /* Animals */,
 				50A97D962EFBC6BC006F37EB /* Countries */,
 				500A7C1A2EE2003800B3C86B /* Tasks */,
@@ -315,8 +320,17 @@
 				50A97DB12EFBEF6F006F37EB /* AnimalEntityExtension.swift */,
 				50A97DB32EFBEFB6006F37EB /* AnimalsContainer.swift */,
 				50A97DB52EFBF0D2006F37EB /* DataModels_Optional.swift */,
+				50A97DB72EFBF2C2006F37EB /* DataModels_NotOptional.swift */,
 			);
 			path = Animals;
+			sourceTree = "<group>";
+		};
+		50A97DB92EFBF31F006F37EB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				50A97DBA2EFBF333006F37EB /* StringExtension.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,6 +410,7 @@
 				508A59552EDC79DD00C0D3C7 /* FetchRequest_Animation_NonList.swift in Sources */,
 				50A97DB42EFBEFB6006F37EB /* AnimalsContainer.swift in Sources */,
 				508A59532EDC792C00C0D3C7 /* FetchRequest_Animation.swift in Sources */,
+				50A97DB82EFBF2C2006F37EB /* DataModels_NotOptional.swift in Sources */,
 				503F76402EE0B27A00E74974 /* SFR_UseExtendedProperties.swift in Sources */,
 				508A59512EDC5E7800C0D3C7 /* FetchRequest_FilteringWithSearchable.swift in Sources */,
 				50A97DA52EFBEC51006F37EB /* DataModels_OverwriteConstraintViolations.swift in Sources */,
@@ -424,6 +439,7 @@
 				508A594F2EDC4E3E00C0D3C7 /* FetchRequest_ProgrammaticFilter.swift in Sources */,
 				508A593D2EDC307200C0D3C7 /* ParkEntityExtension.swift in Sources */,
 				504072FC2EDB8A23002AA9B9 /* BooksDataModel.xcdatamodeld in Sources */,
+				50A97DBB2EFBF333006F37EB /* StringExtension.swift in Sources */,
 				508A594D2EDC4D6200C0D3C7 /* FetchRequest_MultipleFilters.swift in Sources */,
 				504072FE2EDB8AD6002AA9B9 /* BooksContainer.swift in Sources */,
 				500A7C232EE205B100B3C86B /* TasksContainer.swift in Sources */,
