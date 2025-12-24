@@ -20,7 +20,7 @@ struct MOC_Undo_Scope: View {
                 }
                 .onDelete(perform: deleteTask)
             }
-            .navigationTitle("Has Changes")
+            .navigationTitle("Undo_Scope")
             .toolbar {
                 ToolbarItemGroup {
                     Button {
