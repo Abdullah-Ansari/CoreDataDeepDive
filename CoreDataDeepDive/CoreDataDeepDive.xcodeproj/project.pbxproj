@@ -59,6 +59,7 @@
 		50A97DB02EFBEF4E006F37EB /* AnimalsDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DAE2EFBEF4E006F37EB /* AnimalsDataModel.xcdatamodeld */; };
 		50A97DB22EFBEF6F006F37EB /* AnimalEntityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DB12EFBEF6F006F37EB /* AnimalEntityExtension.swift */; };
 		50A97DB42EFBEFB6006F37EB /* AnimalsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DB32EFBEFB6006F37EB /* AnimalsContainer.swift */; };
+		50A97DB62EFBF0D2006F37EB /* DataModels_Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DB52EFBF0D2006F37EB /* DataModels_Optional.swift */; };
 		50E3BB082ED77477007A6952 /* FirstExampleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */; };
 		50E3BB0C2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0A2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld */; };
 		50E3BB0F2ED775B8007A6952 /* FirstExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */; };
@@ -118,6 +119,7 @@
 		50A97DAF2EFBEF4E006F37EB /* AnimalsDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AnimalsDataModel.xcdatamodel; sourceTree = "<group>"; };
 		50A97DB12EFBEF6F006F37EB /* AnimalEntityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalEntityExtension.swift; sourceTree = "<group>"; };
 		50A97DB32EFBEFB6006F37EB /* AnimalsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsContainer.swift; sourceTree = "<group>"; };
+		50A97DB52EFBF0D2006F37EB /* DataModels_Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels_Optional.swift; sourceTree = "<group>"; };
 		50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleContainer.swift; sourceTree = "<group>"; };
 		50E3BB0B2ED774E9007A6952 /* FirstExampleContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstExampleContainer.xcdatamodel; sourceTree = "<group>"; };
 		50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleView.swift; sourceTree = "<group>"; };
@@ -312,6 +314,7 @@
 				50A97DAE2EFBEF4E006F37EB /* AnimalsDataModel.xcdatamodeld */,
 				50A97DB12EFBEF6F006F37EB /* AnimalEntityExtension.swift */,
 				50A97DB32EFBEFB6006F37EB /* AnimalsContainer.swift */,
+				50A97DB52EFBF0D2006F37EB /* DataModels_Optional.swift */,
 			);
 			path = Animals;
 			sourceTree = "<group>";
@@ -437,6 +440,7 @@
 				508A59412EDC325800C0D3C7 /* FetchRequest_RandomSorting.swift in Sources */,
 				50E3BB082ED77477007A6952 /* FirstExampleContainer.swift in Sources */,
 				509D8C642ECBA59500EE3457 /* CoreDataDeepDiveApp.swift in Sources */,
+				50A97DB62EFBF0D2006F37EB /* DataModels_Optional.swift in Sources */,
 				5039E4602EDED58F002E032A /* FetchRequest_MOC_Count.swift in Sources */,
 				50E3BB0F2ED775B8007A6952 /* FirstExampleView.swift in Sources */,
 			);
