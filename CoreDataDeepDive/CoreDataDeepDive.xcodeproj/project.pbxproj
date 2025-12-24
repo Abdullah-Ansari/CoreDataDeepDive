@@ -53,6 +53,7 @@
 		50A97D9D2EFBC862006F37EB /* MOC_UpdateHasChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97D9C2EFBC862006F37EB /* MOC_UpdateHasChanges.swift */; };
 		50A97D9F2EFBCEC3006F37EB /* CountryContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97D9E2EFBCEC3006F37EB /* CountryContainer.swift */; };
 		50A97DA12EFBD65F006F37EB /* DataModels_Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DA02EFBD65F006F37EB /* DataModels_Constraints.swift */; };
+		50A97DA32EFBD82D006F37EB /* DataModels_GetConstraintError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DA22EFBD82D006F37EB /* DataModels_GetConstraintError.swift */; };
 		50E3BB082ED77477007A6952 /* FirstExampleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */; };
 		50E3BB0C2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0A2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld */; };
 		50E3BB0F2ED775B8007A6952 /* FirstExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */; };
@@ -106,6 +107,7 @@
 		50A97D9C2EFBC862006F37EB /* MOC_UpdateHasChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOC_UpdateHasChanges.swift; sourceTree = "<group>"; };
 		50A97D9E2EFBCEC3006F37EB /* CountryContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryContainer.swift; sourceTree = "<group>"; };
 		50A97DA02EFBD65F006F37EB /* DataModels_Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels_Constraints.swift; sourceTree = "<group>"; };
+		50A97DA22EFBD82D006F37EB /* DataModels_GetConstraintError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels_GetConstraintError.swift; sourceTree = "<group>"; };
 		50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleContainer.swift; sourceTree = "<group>"; };
 		50E3BB0B2ED774E9007A6952 /* FirstExampleContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstExampleContainer.xcdatamodel; sourceTree = "<group>"; };
 		50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleView.swift; sourceTree = "<group>"; };
@@ -286,6 +288,7 @@
 				50A97D9C2EFBC862006F37EB /* MOC_UpdateHasChanges.swift */,
 				50A97D9E2EFBCEC3006F37EB /* CountryContainer.swift */,
 				50A97DA02EFBD65F006F37EB /* DataModels_Constraints.swift */,
+				50A97DA22EFBD82D006F37EB /* DataModels_GetConstraintError.swift */,
 			);
 			path = Countries;
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 				504073002EDB8C78002AA9B9 /* DisplayData_Intro.swift in Sources */,
 				500A7C272EE20B1400B3C86B /* MOC_UpdateTask.swift in Sources */,
 				503F76422EE0B32D00E74974 /* SFR_ChangeSectionId.swift in Sources */,
+				50A97DA32EFBD82D006F37EB /* DataModels_GetConstraintError.swift in Sources */,
 				508A59572EDC7B0200C0D3C7 /* FetchRequest_Animation_Other.swift in Sources */,
 				508A594F2EDC4E3E00C0D3C7 /* FetchRequest_ProgrammaticFilter.swift in Sources */,
 				508A593D2EDC307200C0D3C7 /* ParkEntityExtension.swift in Sources */,
