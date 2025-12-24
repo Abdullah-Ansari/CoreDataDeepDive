@@ -66,6 +66,7 @@
 		50A97DBF2EFBFA61006F37EB /* DataModels_DefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DBE2EFBFA61006F37EB /* DataModels_DefaultValues.swift */; };
 		50A97DC12EFBFD01006F37EB /* DataModels_DefaultValues_AwakeFromInsert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DC02EFBFD01006F37EB /* DataModels_DefaultValues_AwakeFromInsert.swift */; };
 		50A97DC42EFC10F1006F37EB /* MOC_Undo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DC32EFC10F1006F37EB /* MOC_Undo.swift */; };
+		50A97DC62EFC14CF006F37EB /* MOC_Undo_HasChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DC52EFC14CF006F37EB /* MOC_Undo_HasChanges.swift */; };
 		50E3BB082ED77477007A6952 /* FirstExampleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */; };
 		50E3BB0C2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0A2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld */; };
 		50E3BB0F2ED775B8007A6952 /* FirstExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */; };
@@ -132,6 +133,7 @@
 		50A97DBE2EFBFA61006F37EB /* DataModels_DefaultValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels_DefaultValues.swift; sourceTree = "<group>"; };
 		50A97DC02EFBFD01006F37EB /* DataModels_DefaultValues_AwakeFromInsert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels_DefaultValues_AwakeFromInsert.swift; sourceTree = "<group>"; };
 		50A97DC32EFC10F1006F37EB /* MOC_Undo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOC_Undo.swift; sourceTree = "<group>"; };
+		50A97DC52EFC14CF006F37EB /* MOC_Undo_HasChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOC_Undo_HasChanges.swift; sourceTree = "<group>"; };
 		50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleContainer.swift; sourceTree = "<group>"; };
 		50E3BB0B2ED774E9007A6952 /* FirstExampleContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstExampleContainer.xcdatamodel; sourceTree = "<group>"; };
 		50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleView.swift; sourceTree = "<group>"; };
@@ -349,6 +351,7 @@
 			isa = PBXGroup;
 			children = (
 				50A97DC32EFC10F1006F37EB /* MOC_Undo.swift */,
+				50A97DC52EFC14CF006F37EB /* MOC_Undo_HasChanges.swift */,
 			);
 			path = UndoAndRedo;
 			sourceTree = "<group>";
@@ -437,6 +440,7 @@
 				50A97DA52EFBEC51006F37EB /* DataModels_OverwriteConstraintViolations.swift in Sources */,
 				503F76442EE0B4A500E74974 /* SFR_SectionId.swift in Sources */,
 				508A593B2EDC2F9C00C0D3C7 /* ParksDataModel.xcdatamodeld in Sources */,
+				50A97DC62EFC14CF006F37EB /* MOC_Undo_HasChanges.swift in Sources */,
 				50A97D9B2EFBC7F6006F37EB /* CountryEntityExtension.swift in Sources */,
 				50A97D9F2EFBCEC3006F37EB /* CountryContainer.swift in Sources */,
 				508A59372EDC25B800C0D3C7 /* DisplayData_HandlingNils.swift in Sources */,
