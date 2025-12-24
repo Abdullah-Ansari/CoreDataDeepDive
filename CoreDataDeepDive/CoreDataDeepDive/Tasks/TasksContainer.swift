@@ -13,6 +13,9 @@ final class TasksContainer {
     
     init(forPreview: Bool = false) {
         persistentContainer = NSPersistentContainer(name: "TasksDataModel")
+        
+        persistentContainer.viewContext.undoManager = UndoManager()
+        
         if forPreview {
             persistentContainer.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }
