@@ -14,8 +14,11 @@ struct CoreDataDeepDiveApp: App {
 //            ContentView()
 //            FirstExampleView()
 //                .environment(\.managedObjectContext, FirstExampleContainer().persistenceContainer.viewContext)
-            DataModels_Optional_Updates()
-                .environment(\.managedObjectContext, AnimalsContainer(forPreview: true).persistent.viewContext)
+//            DataModels_Optional_Updates()
+//                .environment(\.managedObjectContext, AnimalsContainer(forPreview: true).persistent.viewContext)
+            
+            MOC_Undo()
+                .environment(\.managedObjectContext, TasksContainer(forPreview: true).persistentContainer.viewContext)
             
         }
     }
