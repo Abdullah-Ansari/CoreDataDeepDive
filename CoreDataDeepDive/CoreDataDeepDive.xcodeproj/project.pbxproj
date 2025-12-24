@@ -54,6 +54,7 @@
 		50A97D9F2EFBCEC3006F37EB /* CountryContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97D9E2EFBCEC3006F37EB /* CountryContainer.swift */; };
 		50A97DA12EFBD65F006F37EB /* DataModels_Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DA02EFBD65F006F37EB /* DataModels_Constraints.swift */; };
 		50A97DA32EFBD82D006F37EB /* DataModels_GetConstraintError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DA22EFBD82D006F37EB /* DataModels_GetConstraintError.swift */; };
+		50A97DA52EFBEC51006F37EB /* DataModels_OverwriteConstraintViolations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DA42EFBEC51006F37EB /* DataModels_OverwriteConstraintViolations.swift */; };
 		50E3BB082ED77477007A6952 /* FirstExampleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */; };
 		50E3BB0C2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0A2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld */; };
 		50E3BB0F2ED775B8007A6952 /* FirstExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */; };
@@ -108,6 +109,7 @@
 		50A97D9E2EFBCEC3006F37EB /* CountryContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryContainer.swift; sourceTree = "<group>"; };
 		50A97DA02EFBD65F006F37EB /* DataModels_Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels_Constraints.swift; sourceTree = "<group>"; };
 		50A97DA22EFBD82D006F37EB /* DataModels_GetConstraintError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels_GetConstraintError.swift; sourceTree = "<group>"; };
+		50A97DA42EFBEC51006F37EB /* DataModels_OverwriteConstraintViolations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels_OverwriteConstraintViolations.swift; sourceTree = "<group>"; };
 		50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleContainer.swift; sourceTree = "<group>"; };
 		50E3BB0B2ED774E9007A6952 /* FirstExampleContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstExampleContainer.xcdatamodel; sourceTree = "<group>"; };
 		50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleView.swift; sourceTree = "<group>"; };
@@ -289,6 +291,7 @@
 				50A97D9E2EFBCEC3006F37EB /* CountryContainer.swift */,
 				50A97DA02EFBD65F006F37EB /* DataModels_Constraints.swift */,
 				50A97DA22EFBD82D006F37EB /* DataModels_GetConstraintError.swift */,
+				50A97DA42EFBEC51006F37EB /* DataModels_OverwriteConstraintViolations.swift */,
 			);
 			path = Countries;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 				508A59532EDC792C00C0D3C7 /* FetchRequest_Animation.swift in Sources */,
 				503F76402EE0B27A00E74974 /* SFR_UseExtendedProperties.swift in Sources */,
 				508A59512EDC5E7800C0D3C7 /* FetchRequest_FilteringWithSearchable.swift in Sources */,
+				50A97DA52EFBEC51006F37EB /* DataModels_OverwriteConstraintViolations.swift in Sources */,
 				503F76442EE0B4A500E74974 /* SFR_SectionId.swift in Sources */,
 				508A593B2EDC2F9C00C0D3C7 /* ParksDataModel.xcdatamodeld in Sources */,
 				50A97D9B2EFBC7F6006F37EB /* CountryEntityExtension.swift in Sources */,
