@@ -67,6 +67,7 @@
 		50A97DC12EFBFD01006F37EB /* DataModels_DefaultValues_AwakeFromInsert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DC02EFBFD01006F37EB /* DataModels_DefaultValues_AwakeFromInsert.swift */; };
 		50A97DC42EFC10F1006F37EB /* MOC_Undo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DC32EFC10F1006F37EB /* MOC_Undo.swift */; };
 		50A97DC62EFC14CF006F37EB /* MOC_Undo_HasChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DC52EFC14CF006F37EB /* MOC_Undo_HasChanges.swift */; };
+		50A97DC82EFC16EF006F37EB /* MOC_Undo_Scope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DC72EFC16EF006F37EB /* MOC_Undo_Scope.swift */; };
 		50E3BB082ED77477007A6952 /* FirstExampleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */; };
 		50E3BB0C2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0A2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld */; };
 		50E3BB0F2ED775B8007A6952 /* FirstExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */; };
@@ -134,6 +135,7 @@
 		50A97DC02EFBFD01006F37EB /* DataModels_DefaultValues_AwakeFromInsert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels_DefaultValues_AwakeFromInsert.swift; sourceTree = "<group>"; };
 		50A97DC32EFC10F1006F37EB /* MOC_Undo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOC_Undo.swift; sourceTree = "<group>"; };
 		50A97DC52EFC14CF006F37EB /* MOC_Undo_HasChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOC_Undo_HasChanges.swift; sourceTree = "<group>"; };
+		50A97DC72EFC16EF006F37EB /* MOC_Undo_Scope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOC_Undo_Scope.swift; sourceTree = "<group>"; };
 		50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleContainer.swift; sourceTree = "<group>"; };
 		50E3BB0B2ED774E9007A6952 /* FirstExampleContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstExampleContainer.xcdatamodel; sourceTree = "<group>"; };
 		50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleView.swift; sourceTree = "<group>"; };
@@ -352,6 +354,7 @@
 			children = (
 				50A97DC32EFC10F1006F37EB /* MOC_Undo.swift */,
 				50A97DC52EFC14CF006F37EB /* MOC_Undo_HasChanges.swift */,
+				50A97DC72EFC16EF006F37EB /* MOC_Undo_Scope.swift */,
 			);
 			path = UndoAndRedo;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 				509D8C662ECBA59500EE3457 /* ContentView.swift in Sources */,
 				508A59552EDC79DD00C0D3C7 /* FetchRequest_Animation_NonList.swift in Sources */,
 				50A97DB42EFBEFB6006F37EB /* AnimalsContainer.swift in Sources */,
+				50A97DC82EFC16EF006F37EB /* MOC_Undo_Scope.swift in Sources */,
 				508A59532EDC792C00C0D3C7 /* FetchRequest_Animation.swift in Sources */,
 				50A97DC12EFBFD01006F37EB /* DataModels_DefaultValues_AwakeFromInsert.swift in Sources */,
 				50A97DB82EFBF2C2006F37EB /* DataModels_NotOptional.swift in Sources */,
