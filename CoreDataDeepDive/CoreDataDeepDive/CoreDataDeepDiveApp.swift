@@ -12,8 +12,10 @@ struct CoreDataDeepDiveApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            FirstExampleView()
-                .environment(\.managedObjectContext, FirstExampleContainer().persistenceContainer.viewContext)
+//            FirstExampleView()
+//                .environment(\.managedObjectContext, FirstExampleContainer().persistenceContainer.viewContext)
+            MOC_UpdateHasChanges()
+                .environment(\.managedObjectContext, CountriesContainer(forPreview: true).persistentContainer.viewContext)
             
         }
     }
