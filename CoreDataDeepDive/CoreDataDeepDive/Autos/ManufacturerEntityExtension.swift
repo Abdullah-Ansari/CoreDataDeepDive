@@ -19,6 +19,14 @@ extension ManufacturerEntity {
     
     var viewAutoEntities: [AutoEntity] {
         // Convert NSSet to Array
-        return autoEntities?.allObjects as? [AutoEntity] ?? []
+        return autoEntities?.array as? [AutoEntity] ?? []
+    }
+    
+    var viewSortAutos: [AutoEntity] {
+        let autos = autoEntities?.array as? [AutoEntity] ?? []
+        
+        return autos.sorted { auto1, auto2 in
+            return auto1.viewModel.uppercased() < auto2.viewModel.uppercased()
+        }
     }
 }

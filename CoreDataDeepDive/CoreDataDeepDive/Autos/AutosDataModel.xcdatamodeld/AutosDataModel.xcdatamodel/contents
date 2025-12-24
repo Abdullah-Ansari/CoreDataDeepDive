@@ -8,6 +8,6 @@
     <entity name="ManufacturerEntity" representedClassName="ManufacturerEntity" syncable="YES" codeGenerationType="class">
         <attribute name="country" optional="YES" attributeType="String"/>
         <attribute name="name" optional="YES" attributeType="String"/>
-        <relationship name="autoEntities" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AutoEntity" inverseName="manufacturerEntity" inverseEntity="AutoEntity"/>
+        <relationship name="autoEntities" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="AutoEntity" inverseName="manufacturerEntity" inverseEntity="AutoEntity"/>
     </entity>
 </model>

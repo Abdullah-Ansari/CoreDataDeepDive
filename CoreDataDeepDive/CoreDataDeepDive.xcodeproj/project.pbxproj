@@ -82,6 +82,8 @@
 		50A97DE92EFC50E6006F37EB /* Relationships_ManyToMany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DE82EFC50E6006F37EB /* Relationships_ManyToMany.swift */; };
 		50A97DEB2EFC5C2C006F37EB /* ClassEntityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DEA2EFC5C2C006F37EB /* ClassEntityExtension.swift */; };
 		50A97DED2EFC5E04006F37EB /* StudentEntityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DEC2EFC5E04006F37EB /* StudentEntityExtension.swift */; };
+		50A97DEF2EFC66C1006F37EB /* AutoEntityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DEE2EFC66C1006F37EB /* AutoEntityExtension.swift */; };
+		50A97DF12EFC676B006F37EB /* Relationship_Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DF02EFC676B006F37EB /* Relationship_Sort.swift */; };
 		50E3BB082ED77477007A6952 /* FirstExampleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */; };
 		50E3BB0C2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0A2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld */; };
 		50E3BB0F2ED775B8007A6952 /* FirstExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */; };
@@ -164,6 +166,8 @@
 		50A97DE82EFC50E6006F37EB /* Relationships_ManyToMany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relationships_ManyToMany.swift; sourceTree = "<group>"; };
 		50A97DEA2EFC5C2C006F37EB /* ClassEntityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassEntityExtension.swift; sourceTree = "<group>"; };
 		50A97DEC2EFC5E04006F37EB /* StudentEntityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentEntityExtension.swift; sourceTree = "<group>"; };
+		50A97DEE2EFC66C1006F37EB /* AutoEntityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoEntityExtension.swift; sourceTree = "<group>"; };
+		50A97DF02EFC676B006F37EB /* Relationship_Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relationship_Sort.swift; sourceTree = "<group>"; };
 		50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleContainer.swift; sourceTree = "<group>"; };
 		50E3BB0B2ED774E9007A6952 /* FirstExampleContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstExampleContainer.xcdatamodel; sourceTree = "<group>"; };
 		50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleView.swift; sourceTree = "<group>"; };
@@ -401,6 +405,8 @@
 				50A97DDA2EFC3049006F37EB /* ManufacturerEntityExtension.swift */,
 				50A97DDC2EFC3599006F37EB /* Relationships_Nested.swift */,
 				50A97DDE2EFC368D006F37EB /* Relationships_SectionedFetchRequest.swift */,
+				50A97DEE2EFC66C1006F37EB /* AutoEntityExtension.swift */,
+				50A97DF02EFC676B006F37EB /* Relationship_Sort.swift */,
 			);
 			path = Autos;
 			sourceTree = "<group>";
@@ -530,7 +536,9 @@
 				50A97DA72EFBED92006F37EB /* DataModels_KeepDuringConstraintViolations.swift in Sources */,
 				503F76422EE0B32D00E74974 /* SFR_ChangeSectionId.swift in Sources */,
 				50A97DA32EFBD82D006F37EB /* DataModels_GetConstraintError.swift in Sources */,
+				50A97DF12EFC676B006F37EB /* Relationship_Sort.swift in Sources */,
 				508A59572EDC7B0200C0D3C7 /* FetchRequest_Animation_Other.swift in Sources */,
+				50A97DEF2EFC66C1006F37EB /* AutoEntityExtension.swift in Sources */,
 				508A594F2EDC4E3E00C0D3C7 /* FetchRequest_ProgrammaticFilter.swift in Sources */,
 				508A593D2EDC307200C0D3C7 /* ParkEntityExtension.swift in Sources */,
 				504072FC2EDB8A23002AA9B9 /* BooksDataModel.xcdatamodeld in Sources */,
