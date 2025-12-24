@@ -14,8 +14,8 @@ struct CoreDataDeepDiveApp: App {
 //            ContentView()
 //            FirstExampleView()
 //                .environment(\.managedObjectContext, FirstExampleContainer().persistenceContainer.viewContext)
-            MOC_UpdateHasChanges()
-                .environment(\.managedObjectContext, CountriesContainer(forPreview: true).persistentContainer.viewContext)
+            DataModels_Optional_Updates()
+                .environment(\.managedObjectContext, AnimalsContainer(forPreview: true).persistent.viewContext)
             
         }
     }
