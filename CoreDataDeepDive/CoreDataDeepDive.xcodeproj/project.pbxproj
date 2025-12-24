@@ -52,6 +52,7 @@
 		50A97D9B2EFBC7F6006F37EB /* CountryEntityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97D9A2EFBC7F6006F37EB /* CountryEntityExtension.swift */; };
 		50A97D9D2EFBC862006F37EB /* MOC_UpdateHasChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97D9C2EFBC862006F37EB /* MOC_UpdateHasChanges.swift */; };
 		50A97D9F2EFBCEC3006F37EB /* CountryContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97D9E2EFBCEC3006F37EB /* CountryContainer.swift */; };
+		50A97DA12EFBD65F006F37EB /* DataModels_Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DA02EFBD65F006F37EB /* DataModels_Constraints.swift */; };
 		50E3BB082ED77477007A6952 /* FirstExampleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */; };
 		50E3BB0C2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0A2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld */; };
 		50E3BB0F2ED775B8007A6952 /* FirstExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */; };
@@ -104,6 +105,7 @@
 		50A97D9A2EFBC7F6006F37EB /* CountryEntityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryEntityExtension.swift; sourceTree = "<group>"; };
 		50A97D9C2EFBC862006F37EB /* MOC_UpdateHasChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOC_UpdateHasChanges.swift; sourceTree = "<group>"; };
 		50A97D9E2EFBCEC3006F37EB /* CountryContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryContainer.swift; sourceTree = "<group>"; };
+		50A97DA02EFBD65F006F37EB /* DataModels_Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels_Constraints.swift; sourceTree = "<group>"; };
 		50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleContainer.swift; sourceTree = "<group>"; };
 		50E3BB0B2ED774E9007A6952 /* FirstExampleContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstExampleContainer.xcdatamodel; sourceTree = "<group>"; };
 		50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleView.swift; sourceTree = "<group>"; };
@@ -283,6 +285,7 @@
 				50A97D9A2EFBC7F6006F37EB /* CountryEntityExtension.swift */,
 				50A97D9C2EFBC862006F37EB /* MOC_UpdateHasChanges.swift */,
 				50A97D9E2EFBCEC3006F37EB /* CountryContainer.swift */,
+				50A97DA02EFBD65F006F37EB /* DataModels_Constraints.swift */,
 			);
 			path = Countries;
 			sourceTree = "<group>";
@@ -359,6 +362,7 @@
 			files = (
 				5039E4652EDF012B002E032A /* SFR_Intro.swift in Sources */,
 				500A7C252EE2086900B3C86B /* MOC_UpdateWithSwipe.swift in Sources */,
+				50A97DA12EFBD65F006F37EB /* DataModels_Constraints.swift in Sources */,
 				509D8C662ECBA59500EE3457 /* ContentView.swift in Sources */,
 				508A59552EDC79DD00C0D3C7 /* FetchRequest_Animation_NonList.swift in Sources */,
 				508A59532EDC792C00C0D3C7 /* FetchRequest_Animation.swift in Sources */,

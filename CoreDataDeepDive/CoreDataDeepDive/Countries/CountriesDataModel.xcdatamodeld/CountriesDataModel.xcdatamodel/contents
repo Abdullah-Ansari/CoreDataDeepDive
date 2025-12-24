@@ -3,5 +3,10 @@
     <entity name="CountryEntity" representedClassName="CountryEntity" syncable="YES" codeGenerationType="class">
         <attribute name="lastVisited" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="name" optional="YES" attributeType="String"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="name"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
     </entity>
 </model>
