@@ -56,6 +56,9 @@
 		50A97DA32EFBD82D006F37EB /* DataModels_GetConstraintError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DA22EFBD82D006F37EB /* DataModels_GetConstraintError.swift */; };
 		50A97DA52EFBEC51006F37EB /* DataModels_OverwriteConstraintViolations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DA42EFBEC51006F37EB /* DataModels_OverwriteConstraintViolations.swift */; };
 		50A97DA72EFBED92006F37EB /* DataModels_KeepDuringConstraintViolations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DA62EFBED92006F37EB /* DataModels_KeepDuringConstraintViolations.swift */; };
+		50A97DB02EFBEF4E006F37EB /* AnimalsDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DAE2EFBEF4E006F37EB /* AnimalsDataModel.xcdatamodeld */; };
+		50A97DB22EFBEF6F006F37EB /* AnimalEntityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DB12EFBEF6F006F37EB /* AnimalEntityExtension.swift */; };
+		50A97DB42EFBEFB6006F37EB /* AnimalsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DB32EFBEFB6006F37EB /* AnimalsContainer.swift */; };
 		50E3BB082ED77477007A6952 /* FirstExampleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */; };
 		50E3BB0C2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0A2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld */; };
 		50E3BB0F2ED775B8007A6952 /* FirstExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */; };
@@ -112,6 +115,9 @@
 		50A97DA22EFBD82D006F37EB /* DataModels_GetConstraintError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels_GetConstraintError.swift; sourceTree = "<group>"; };
 		50A97DA42EFBEC51006F37EB /* DataModels_OverwriteConstraintViolations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels_OverwriteConstraintViolations.swift; sourceTree = "<group>"; };
 		50A97DA62EFBED92006F37EB /* DataModels_KeepDuringConstraintViolations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels_KeepDuringConstraintViolations.swift; sourceTree = "<group>"; };
+		50A97DAF2EFBEF4E006F37EB /* AnimalsDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AnimalsDataModel.xcdatamodel; sourceTree = "<group>"; };
+		50A97DB12EFBEF6F006F37EB /* AnimalEntityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalEntityExtension.swift; sourceTree = "<group>"; };
+		50A97DB32EFBEFB6006F37EB /* AnimalsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsContainer.swift; sourceTree = "<group>"; };
 		50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleContainer.swift; sourceTree = "<group>"; };
 		50E3BB0B2ED774E9007A6952 /* FirstExampleContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstExampleContainer.xcdatamodel; sourceTree = "<group>"; };
 		50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleView.swift; sourceTree = "<group>"; };
@@ -262,6 +268,7 @@
 		509D8C622ECBA59500EE3457 /* CoreDataDeepDive */ = {
 			isa = PBXGroup;
 			children = (
+				50A97DA82EFBEE3A006F37EB /* Animals */,
 				50A97D962EFBC6BC006F37EB /* Countries */,
 				500A7C1A2EE2003800B3C86B /* Tasks */,
 				508A59382EDC2F7300C0D3C7 /* Parks */,
@@ -297,6 +304,16 @@
 				50A97DA62EFBED92006F37EB /* DataModels_KeepDuringConstraintViolations.swift */,
 			);
 			path = Countries;
+			sourceTree = "<group>";
+		};
+		50A97DA82EFBEE3A006F37EB /* Animals */ = {
+			isa = PBXGroup;
+			children = (
+				50A97DAE2EFBEF4E006F37EB /* AnimalsDataModel.xcdatamodeld */,
+				50A97DB12EFBEF6F006F37EB /* AnimalEntityExtension.swift */,
+				50A97DB32EFBEFB6006F37EB /* AnimalsContainer.swift */,
+			);
+			path = Animals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,6 +391,7 @@
 				50A97DA12EFBD65F006F37EB /* DataModels_Constraints.swift in Sources */,
 				509D8C662ECBA59500EE3457 /* ContentView.swift in Sources */,
 				508A59552EDC79DD00C0D3C7 /* FetchRequest_Animation_NonList.swift in Sources */,
+				50A97DB42EFBEFB6006F37EB /* AnimalsContainer.swift in Sources */,
 				508A59532EDC792C00C0D3C7 /* FetchRequest_Animation.swift in Sources */,
 				503F76402EE0B27A00E74974 /* SFR_UseExtendedProperties.swift in Sources */,
 				508A59512EDC5E7800C0D3C7 /* FetchRequest_FilteringWithSearchable.swift in Sources */,
@@ -395,6 +413,7 @@
 				504072F62EDB7F2A002AA9B9 /* PreviewingData_Intro.swift in Sources */,
 				504073002EDB8C78002AA9B9 /* DisplayData_Intro.swift in Sources */,
 				500A7C272EE20B1400B3C86B /* MOC_UpdateTask.swift in Sources */,
+				50A97DB22EFBEF6F006F37EB /* AnimalEntityExtension.swift in Sources */,
 				50A97DA72EFBED92006F37EB /* DataModels_KeepDuringConstraintViolations.swift in Sources */,
 				503F76422EE0B32D00E74974 /* SFR_ChangeSectionId.swift in Sources */,
 				50A97DA32EFBD82D006F37EB /* DataModels_GetConstraintError.swift in Sources */,
@@ -408,6 +427,7 @@
 				508A594B2EDC472B00C0D3C7 /* FetchRequest_Filtering.swift in Sources */,
 				504072F42EDB7CBA002AA9B9 /* FriendsContainer.swift in Sources */,
 				50A97D9D2EFBC862006F37EB /* MOC_UpdateHasChanges.swift in Sources */,
+				50A97DB02EFBEF4E006F37EB /* AnimalsDataModel.xcdatamodeld in Sources */,
 				5039E4622EDEFB45002E032A /*  FetchRequest_PredicateAndSort.swift in Sources */,
 				508A59432EDC3EBA00C0D3C7 /* FetchRequest_SortingMultipleProperties.swift in Sources */,
 				500A7C1D2EE2005900B3C86B /* TasksDataModel.xcdatamodeld in Sources */,
@@ -677,6 +697,17 @@
 			currentVersion = 50A97D982EFBC6DE006F37EB /* CountriesDataModel.xcdatamodel */;
 			name = CountriesDataModel.xcdatamodeld;
 			path = /Users/abdullahansari/Downloads/CoreDataDeepDive/CoreDataDeepDive/CoreDataDeepDive/Countries/CountriesDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		50A97DAE2EFBEF4E006F37EB /* AnimalsDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50A97DAF2EFBEF4E006F37EB /* AnimalsDataModel.xcdatamodel */,
+			);
+			currentVersion = 50A97DAF2EFBEF4E006F37EB /* AnimalsDataModel.xcdatamodel */;
+			name = AnimalsDataModel.xcdatamodeld;
+			path = /Users/abdullahansari/Downloads/CoreDataDeepDive/CoreDataDeepDive/CoreDataDeepDive/Animals/AnimalsDataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
