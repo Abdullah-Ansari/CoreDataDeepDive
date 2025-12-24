@@ -61,7 +61,7 @@ extension CountriesContainer {
     
     func addCountry(moc: NSManagedObjectContext, name: String, lastVisited: Date) {
         let country = CountryEntity(context: moc)
-//        country.id = UUID()
+        country.id = UUID()
         country.name = name
         country.lastVisited = lastVisited
     }

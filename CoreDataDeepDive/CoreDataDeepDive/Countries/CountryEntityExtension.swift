@@ -16,4 +16,8 @@ extension CountryEntity {
     var viewLastVisited: String {
         return lastVisited?.formatted(date: .numeric, time: .omitted) ?? ""
     }
+    
+    override public func awakeFromInsert() {
+        id = UUID()
+    }
 }

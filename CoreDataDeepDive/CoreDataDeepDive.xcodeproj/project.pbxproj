@@ -64,6 +64,7 @@
 		50A97DBB2EFBF333006F37EB /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DBA2EFBF333006F37EB /* StringExtension.swift */; };
 		50A97DBD2EFBF583006F37EB /* DataModels_Optional_Updates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DBC2EFBF583006F37EB /* DataModels_Optional_Updates.swift */; };
 		50A97DBF2EFBFA61006F37EB /* DataModels_DefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DBE2EFBFA61006F37EB /* DataModels_DefaultValues.swift */; };
+		50A97DC12EFBFD01006F37EB /* DataModels_DefaultValues_AwakeFromInsert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A97DC02EFBFD01006F37EB /* DataModels_DefaultValues_AwakeFromInsert.swift */; };
 		50E3BB082ED77477007A6952 /* FirstExampleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */; };
 		50E3BB0C2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0A2ED774E9007A6952 /* FirstExampleDataModel.xcdatamodeld */; };
 		50E3BB0F2ED775B8007A6952 /* FirstExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */; };
@@ -128,6 +129,7 @@
 		50A97DBA2EFBF333006F37EB /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		50A97DBC2EFBF583006F37EB /* DataModels_Optional_Updates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels_Optional_Updates.swift; sourceTree = "<group>"; };
 		50A97DBE2EFBFA61006F37EB /* DataModels_DefaultValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels_DefaultValues.swift; sourceTree = "<group>"; };
+		50A97DC02EFBFD01006F37EB /* DataModels_DefaultValues_AwakeFromInsert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels_DefaultValues_AwakeFromInsert.swift; sourceTree = "<group>"; };
 		50E3BB072ED77477007A6952 /* FirstExampleContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleContainer.swift; sourceTree = "<group>"; };
 		50E3BB0B2ED774E9007A6952 /* FirstExampleContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstExampleContainer.xcdatamodel; sourceTree = "<group>"; };
 		50E3BB0E2ED775B8007A6952 /* FirstExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExampleView.swift; sourceTree = "<group>"; };
@@ -314,6 +316,7 @@
 				50A97DA42EFBEC51006F37EB /* DataModels_OverwriteConstraintViolations.swift */,
 				50A97DA62EFBED92006F37EB /* DataModels_KeepDuringConstraintViolations.swift */,
 				50A97DBE2EFBFA61006F37EB /* DataModels_DefaultValues.swift */,
+				50A97DC02EFBFD01006F37EB /* DataModels_DefaultValues_AwakeFromInsert.swift */,
 			);
 			path = Countries;
 			sourceTree = "<group>";
@@ -416,6 +419,7 @@
 				508A59552EDC79DD00C0D3C7 /* FetchRequest_Animation_NonList.swift in Sources */,
 				50A97DB42EFBEFB6006F37EB /* AnimalsContainer.swift in Sources */,
 				508A59532EDC792C00C0D3C7 /* FetchRequest_Animation.swift in Sources */,
+				50A97DC12EFBFD01006F37EB /* DataModels_DefaultValues_AwakeFromInsert.swift in Sources */,
 				50A97DB82EFBF2C2006F37EB /* DataModels_NotOptional.swift in Sources */,
 				503F76402EE0B27A00E74974 /* SFR_UseExtendedProperties.swift in Sources */,
 				508A59512EDC5E7800C0D3C7 /* FetchRequest_FilteringWithSearchable.swift in Sources */,
